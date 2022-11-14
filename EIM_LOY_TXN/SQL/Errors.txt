@@ -1,0 +1,111 @@
+Errors:
+001 - 099:	File Errors
+100 - 149:	Layout Errors
+150	- 199:	Member Errors
+200 - 249:	Program Errors
+250 - 299:	Partner Errors
+300 - 349:	Signature Errors
+350 - 399:	Parent Transaction Errors
+400	- 449:	Product Errors
+450 - 499: 	Point Errors
+500	- 549:	Transaction Errors
+
+-----------------------------------
+File Errors
+-----------------------------------
+001	-	CouldNotOpenLOGFile
+002	-	CouldNotOpenFile
+003	-	CouldNotCloseFile
+001	-	
+001	-	
+001	-	
+001	-	
+-----------------------------------
+Layout Errors
+-----------------------------------
+100	-	IncorrectLayout
+001	-	
+001	-	
+-----------------------------------
+Member Errors
+-----------------------------------
+150	-	MemberNotFound
+151	-	MemberStatusNotValid
+152	-	MemberProgNotValid
+153	-	MemberOrgNotValid
+001	-	
+001	-	
+001	-	
+001	-	
+-----------------------------------
+Program Errors
+-----------------------------------
+200	-	ProgramNotFound
+201	-	MoreThanOneProgFound
+001	-	
+-----------------------------------
+Partner Errors
+-----------------------------------
+250	-	PartnerProgNotFound
+251	-	PartnerNotFound
+252	-	MoreThanOnePartnerFound
+253	-	
+254	-	
+-----------------------------------
+Signature Errors
+-----------------------------------
+300	-	SignNotFound
+301	-	MoreThanOneSignFound
+302	-	SignStatusNotValid
+304	-	SignMemberNotValid
+001	-	
+-----------------------------------
+Parent Transaction Errors
+-----------------------------------
+350	-	ParTxnNotFound
+351	-	MoreThanOneParTxnFound
+352	-	ParTxnNotValid
+353	-	ParTxnProductNotValid
+354	-	ParTxnStatusNotValid
+355	-	ParTxnSubStatusNotValid
+356	-	ParTxnChannelFound
+357	-	ParTxnSignInputNotValid
+358	-	ParTxnMemberNotValid
+359	-	ParTxnMemberNotFound
+360	-	ParTxnOrgNotValid
+361	-	
+362	-	
+363	-	
+
+-----------------------------------
+Product Errors
+-----------------------------------
+400	-	ProductNotFound
+401	-	MoreThanOneProductFound
+402	-	ProductPartnerProgNotFound
+403	-	ProductPartnerNotFound
+404	-	MoreThanOneProdPartnerFound
+405	-	
+406	-	
+001	-	
+001	-	
+001	-	
+001	-	
+001	-	
+-----------------------------------
+Point Errors
+-----------------------------------
+450	-	PointProgNotFound
+451	-	PointNotFound
+452	-	MoreThanOnePointFound
+001	-	
+001	-	
+
+-----------------------------------
+Transaction Errors
+-----------------------------------
+500	-	TxnAmountNotValid
+501	-	TxnExternalIdNotValid
+502	-	
+503	-	
+504	-	
